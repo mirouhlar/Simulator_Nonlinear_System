@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.linalg import solve_continuous_are, solve_discrete_are
-from controller.controller import Controller
+from controllers.controller import Controller
 
 
 class LQRController(Controller):
